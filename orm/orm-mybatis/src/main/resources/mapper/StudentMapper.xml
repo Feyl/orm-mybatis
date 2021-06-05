@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper SYSTEM "myorm.dtd">
+<mapper namespace="com.orm.example.mapper.StudentMapper">
+    <select id="selectAll" resultType="com.orm.example.entity.Student">
+        select s.no,s.name,c.class_name class_name,s.department,s.major,s.admission_date from student s join class c on s.class_no=c.no
+    </select>
+    <select id="selectList" resultType="com.orm.example.entity.Student">
+        select s.no,s.name,c.class_name class_name,s.department,s.major,s.admission_date from student s join class c on s.class_no=c.no limit #{startNo},#{pageSize}
+    </select>
+    <select id="queryStuNum" resultType="java.lang.Long"></select>
+    <insert id="insertStu"></insert>
+    <update id="updateByNo"></update>
+    <delete id="deleteByNo" parameterType="java.lang.Integer"></delete>
+</mapper>
