@@ -12,6 +12,8 @@ If you want to learn more, it is recommended to read the original address of the
 
 I hope it's helpful to you.
 
+If you find any mistakes during your reading, please mention them. Thank you very much.
+
 [primary address](https://github.com/chenxingxing6/myorm)
 
 这是一个简化版的 Mybatis框架。
@@ -25,6 +27,8 @@ I hope it's helpful to you.
 如果你想深入学习，建议阅读原版地址学长对其框架的介绍 README.md（记录了学长写框架的思考过程），再回来看这个源码。
 
 希望对你有所帮助。
+
+如果在阅读过程中发现错误，请您提出，非常感谢。
 
 [原版地址连接](https://github.com/chenxingxing6/myorm)
 
