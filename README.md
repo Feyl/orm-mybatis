@@ -2,6 +2,18 @@
 
 This is a simplified version of the MyBatis framework.
 
+**achievement：**
+
+* A single object /List collection query operation based on zero or single parameters of an XML configuration file
+* Add, delete, update, and other operations based on individual parameters of the XML configuration file (which can be object types wrapped in primitive data types)
+* Add, delete, update, query for a single object, etc., based on any parameters that are passed sequentially or out of order using @Param (return value is object type)
+
+**technique：**
+
+* Annotations, reflection (dynamic proxy), dom4j, regular expressions, database, singletons (lazy/double-check lock), JUnit, 
+
+  JUC collection classes and mapping classes
+
 Some improvements were made on a simplified version of the framework written by an upperclassman on GitHub.
 
 See the code for details of specific improvements.
@@ -17,6 +29,16 @@ If you find any mistakes during your reading, please mention them. Thank you ver
 [primary address](https://github.com/chenxingxing6/myorm)
 
 这是一个简化版的 Mybatis框架。
+
+实现：
+
+* 基于 XML配置文件的零个或单个参数的 单个对象/List集合查询 操作
+* 基于 XML配置文件的单个参数（可以为对象类型/基本数据类型包装后的对象类型）的添加、删除、更新等操作
+* 基于 注解的任意参数（按顺序对应传参或使用@Param可以不按顺序传参）（返回值为对象类型）的 添加、删除、更新、单个对象查询等操作
+
+技术：
+
+注解、反射（动态代理）、dom4j、正则表达式、数据库、单例模式（懒汉式/双重校验锁）、单元测试、JUC集合类和映射类
 
 在GitHub上的一位学长手写的简化版框架之上做了部分改进。
 
