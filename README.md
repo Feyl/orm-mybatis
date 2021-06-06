@@ -46,7 +46,7 @@ If you find any mistakes during your reading, please mention them. Thank you ver
 
 仓库中记录了参考学习学长代码过程中所做的 UML类图、理解过程中写的笔记、自己改进过程中遇到问题时搜索的网站、测试代码时所用的数据库的 sql文件。
 
-如果你想深入学习，建议阅读原版地址学长对其框架的介绍 README.md（记录了学长写框架的思考过程），再回来看这个源码。
+如果你想深入学习，建议阅读原版地址学长对其框架的介绍 README.md（记录了学长写框架的思考过程），再回来看这个代码。
 
 希望对你有所帮助。
 
