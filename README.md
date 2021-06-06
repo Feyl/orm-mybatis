@@ -18,7 +18,7 @@ Some improvements were made on a simplified version of the framework written by 
 
 See the code for details of specific improvements.
 
-The warehouse records the UML class diagrams made in the process of learning the code of senior students, the notes written in the process of understanding, the websites searched when they encountered problems in the process of improving themselves, and the SQL files of the database used in testing the code.
+The repository records the UML class diagrams made in the process of learning the code of senior students, the notes written in the process of understanding, the websites searched when they encountered problems in the process of improving themselves, and the SQL files of the database used in testing the code.
 
 If you want to learn more, it is recommended to read the original address of the senior's introduction to his framework, readme.md (which records the senior's thinking process of writing the framework), and then come back to the source code.
 
