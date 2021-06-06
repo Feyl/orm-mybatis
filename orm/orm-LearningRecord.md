@@ -209,8 +209,6 @@ private static Object typeof(Object o)
 
 弱引用
 
-单例模式
-
 [ResourceBundle和properties 读取配置文件区别](https://my.oschina.net/u/2349605/blog/670506)
 
 [读取properties配置文件的几种方式总结](https://www.jianshu.com/p/f650cf1fe59f)
