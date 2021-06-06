@@ -50,7 +50,7 @@ If you find any mistakes during your reading, please mention them. Thank you ver
 
 希望对你有所帮助。
 
-如果在阅读过程中发现错误，请您提出，非常感谢。
+如果在阅读过程中发现错误，请您指出，非常感谢。
 
 [原版地址连接](https://github.com/chenxingxing6/myorm)
 
