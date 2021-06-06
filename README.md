@@ -40,7 +40,7 @@ If you find any mistakes during your reading, please mention them. Thank you ver
 
 注解、反射（动态代理）、dom4j、正则表达式、数据库、单例模式（懒汉式/双重校验锁）、单元测试、JUC集合类和映射类
 
-在GitHub上的一位学长手写的简化版框架之上做了部分改进。
+在GitHub上另一位学长手写的简化版框架之上做了部分“改进”。
 
 具体改进的细节，详见代码。
 
