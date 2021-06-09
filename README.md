@@ -54,3 +54,11 @@ If you find any mistakes during your reading, please mention them. Thank you ver
 
 [原版地址连接](https://github.com/chenxingxing6/myorm)
 
+**待修复的Bug:**
+所有待调用的方法都存储在 SqlSessionFactory 的属性
+```java
+Map<String, Function> functionMap;
+```
+中，当有多个Mapper接口的方法名一致，或多个Mapper接口对应的xml文件配置的id（方法名）一致时，会存在覆盖现象。
+虽然可以使注解优先，但在存在多个Mapper接口有相同方法名时会导致被覆盖的Mapper接口的方法和Mapper接口对应的xml文件配置的方法调用异常。
+
